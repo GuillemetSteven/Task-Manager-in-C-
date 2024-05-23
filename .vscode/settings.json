@@ -1,0 +1,24 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Cygwin",
+  "terminal.integrated.profiles.windows": {
+    "Cygwin": {
+      "path": "C:\\cygwin64\\bin\\bash.exe",
+      "args": ["--login", "-i"],
+      "env": {
+        "CHERE_INVOKING": "1"
+      },
+      "cwd": "${workspaceFolder}"
+    }
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "gestionnaire_tache.h": "c",
+    "unistd.h": "c",
+    "signal.h": "c",
+    "gestion_signaux.h": "c",
+    "commandes.h": "c",
+    "getopt.h": "c",
+    "limits.h": "c",
+    "logs.h": "c"
+  }
+}
